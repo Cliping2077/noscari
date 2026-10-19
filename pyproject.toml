@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "axiom-learning-core"
+version = "0.1.0a5"
+description = "Noscari Baby: an auditable, offline experimental learning core"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = ["numpy>=1.26,<3", "pydantic>=2.7,<3"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "build>=1,<2", "setuptools>=77", "wheel>=0.43"]
+torch = ["torch>=2.2,<3"]
+
+[project.scripts]
+axiom-demo = "axiom.examples.teach_menu:main"
+axiom-benchmark = "axiom.benchmarks.run:main"
+noscari-motivation-demo = "axiom.examples.motivation:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"
