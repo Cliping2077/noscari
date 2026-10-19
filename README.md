@@ -4,7 +4,7 @@
 
 持续学习研究原型：将教学记录、验证反馈与内部参数更新分开，验证经验是否改变
 未见任务中的选择。CPU 即可运行，无 API Key、无模型下载、实验不联网。
-V0.2 已并入既有工程；公开名称采用 Noscari Baby，`axiom-learning-core` 包名及
+V0.2 已并入既有工程；架构名称为 Noscari，当前模型名称为 Baby，`axiom-learning-core` 包名及
 `axiom` 导入保留兼容。V0.2 是任务书版本，软件版本仍按 alpha 顺序递增。
 
 **Noscari 是认知架构研究项目；Baby 是该架构当前的有限模型与实验实现。**
@@ -14,8 +14,13 @@ V0.2 已并入既有工程；公开名称采用 Noscari Baby，`axiom-learning-c
 完成任务不能算作 Baby 已经学会；保存一条教学记录也不能算作参数学习。
 
 本次 a5 只补强发布检查、复现工具与研究设计，**不改 a4 的认知算法和实验数据**。
-尚未公开仓库或发布 PyPI。[发布检查清单](docs/github-release.md) 区分本地验证与
-尚未执行的远程 CI；[下一轮信息价值设计](docs/help-value-design.md) 尚未开始实验。
+研究 Alpha 已在 [GitHub Release](https://github.com/Cliping2077/noscari/releases/tag/v0.1.0a5) 公开，尚未发布 PyPI。
+Noscari 的软件发行版本为 0.1.0a5；Baby 检查点由实验协议、训练种子和参数哈希标识，
+暂不另行定义模型代次。[远程 CI](https://github.com/Cliping2077/noscari/actions/runs/39251025287)
+五组任务全部通过：Windows/Ubuntu × Python 3.11/3.14 各 89 项测试通过；
+无 PyTorch 组为 75 项通过、3 项跳过。CI 不重跑完整研究。
+[发布检查清单](docs/github-release.md) 保留冻结时的本地准备记录，后续远程验证见 Release。
+[下一轮信息价值设计](docs/help-value-design.md) 尚未开始实验。
 
 这不是完整类人学习系统，也不是 AGI。语义匹配方法与词汇由工程实现提供，模型学习
 何时使用已有方法；它尚不能从自由语言教学中创造新方法。
@@ -35,7 +40,7 @@ python -m venv .venv
 
 Linux/macOS 将 `.venv/Scripts/python` 换为 `.venv/bin/python`。不用 MLP 时安装
 `.[dev]` 即可；基础包只依赖 NumPy、Pydantic。本轮实际测试环境是 Windows、
-Python 3.14.6、CPU PyTorch，其他平台/版本由所附 CI 配置覆盖，但本地尚未验证。
+Python 3.14.6、CPU PyTorch；上述远程 CI 已验证 Windows/Ubuntu 与 Python 3.11/3.14。
 
 目录存在且非空时，实验命令会拒绝覆盖，换一个输出目录即可。
 
@@ -176,4 +181,4 @@ tests/ docs/ experiments/ scripts/
 详细边界见 [设计](docs/design.md)。当前候选是有限宏动作，不是并行思考模块；
 技能版本与结果关联，但默认选择器仅使用最新语义版本。旧版本留作审计，自动组合、
 重新激活旧语义版本和通用长期子目标规划尚未实现。Frontier 已有有限的持续问题
-状态，尚未接入核心菜单决策器。MIT 许可，尚未发布到 GitHub/PyPI。
+状态，尚未接入核心菜单决策器。MIT 许可，GitHub 研究 Alpha 已公开，尚未发布 PyPI。
