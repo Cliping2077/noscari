@@ -1,0 +1,462 @@
+[
+  {
+    "seed": 0,
+    "world": 0,
+    "phase": "initial",
+    "weights": {
+      "alpha": 0.9055306067996229,
+      "beta": -0.23772382519127105,
+      "gamma": 0.0
+    },
+    "learning": {
+      "updated": true,
+      "before_digest": "caae405bb009298a868c7684f0b8794aa7aaa7d628165d9dbcfe7111e5119a93",
+      "after_digest": "2fd5df6875046d8c7061bf0a4603581d53c4a2d5fd4fc493f6466c6893e9d456",
+      "parameter_delta": 0.05964534364399281,
+      "eligible_records": 72,
+      "reason": "EMA of verified prediction progress; objective and question template are fixed"
+    },
+    "selected_topic": "alpha",
+    "mean_selected_topic": "alpha",
+    "parameter_digest": "2fd5df6875046d8c7061bf0a4603581d53c4a2d5fd4fc493f6466c6893e9d456",
+    "evaluation_unchanged": true,
+    "spent": 72
+  },
+  {
+    "seed": 0,
+    "world": 0,
+    "phase": "reversed",
+    "weights": {
+      "alpha": -0.09705553855970908,
+      "beta": 0.7909344320048619,
+      "gamma": 0.0
+    },
+    "learning": {
+      "updated": true,
+      "before_digest": "73912bea683a875afb0e4cfbaeacb8c3a950f1886f93c569580eb2897dc278c8",
+      "after_digest": "c9be4b6affb496c6980ea191d5a9367a68a1e71bced69700041b7bf76efcdc03",
+      "parameter_delta": 0.11103166096423195,
+      "eligible_records": 144,
+      "reason": "EMA of verified prediction progress; objective and question template are fixed"
+    },
+    "selected_topic": "beta",
+    "mean_selected_topic": "alpha",
+    "parameter_digest": "c9be4b6affb496c6980ea191d5a9367a68a1e71bced69700041b7bf76efcdc03",
+    "evaluation_unchanged": true,
+    "spent": 144
+  },
+  {
+    "seed": 0,
+    "world": 1,
+    "phase": "initial",
+    "weights": {
+      "alpha": -0.19583739760092495,
+      "beta": 0.8579478731520898,
+      "gamma": 0.0
+    },
+    "learning": {
+      "updated": true,
+      "before_digest": "b4e2eb40c25ba2be9fd7031303b4e0cc0af59f05396da47fdf53516a16131536",
+      "after_digest": "439eeece2e5a2263346e334a428558f5e1758da6f879937a20f27d55f73bf05f",
+      "parameter_delta": 0.06240264105598931,
+      "eligible_records": 72,
+      "reason": "EMA of verified prediction progress; objective and question template are fixed"
+    },
+    "selected_topic": "beta",
+    "mean_selected_topic": "beta",
+    "parameter_digest": "439eeece2e5a2263346e334a428558f5e1758da6f879937a20f27d55f73bf05f",
+    "evaluation_unchanged": true,
+    "spent": 72
+  },
+  {
+    "seed": 0,
+    "world": 1,
+    "phase": "reversed",
+    "weights": {
+      "alpha": 0.9076405273976298,
+      "beta": -0.11489467813995491,
+      "gamma": 0.0
+    },
+    "learning": {
+      "updated": true,
+      "before_digest": "dd517b4c7bd068a1c04dfe35d6c326f301493ac86cb20ad589cd1e05ced87ecb",
+      "after_digest": "d92393b6e45638ab6bd649d49933badf5033460bb8ee2c960b0884c503de40eb",
+      "parameter_delta": 0.05203843644382138,
+      "eligible_records": 144,
+      "reason": "EMA of verified prediction progress; objective and question template are fixed"
+    },
+    "selected_topic": "alpha",
+    "mean_selected_topic": "beta",
+    "parameter_digest": "d92393b6e45638ab6bd649d49933badf5033460bb8ee2c960b0884c503de40eb",
+    "evaluation_unchanged": true,
+    "spent": 144
+  },
+  {
+    "seed": 1,
+    "world": 0,
+    "phase": "initial",
+    "weights": {
+      "alpha": 0.8643569153429903,
+      "beta": -0.05181792912791116,
+      "gamma": 0.0
+    },
+    "learning": {
+      "updated": true,
+      "before_digest": "56522ab9a3ab0bc890ca60f066c5e19b0541f9e527f02877a2cb113ecda1c755",
+      "after_digest": "adb147d0aeb6698c89a5282a0f41e4ac23eb4c7a85adda0049901bcdb17259e7",
+      "parameter_delta": 0.01767311345543574,
+      "eligible_records": 72,
+      "reason": "EMA of verified prediction progress; objective and question template are fixed"
+    },
+    "selected_topic": "alpha",
+    "mean_selected_topic": "alpha",
+    "parameter_digest": "adb147d0aeb6698c89a5282a0f41e4ac23eb4c7a85adda0049901bcdb17259e7",
+    "evaluation_unchanged": true,
+    "spent": 72
+  },
+  {
+    "seed": 1,
+    "world": 0,
+    "phase": "reversed",
+    "weights": {
+      "alpha": -0.26115806348567433,
+      "beta": 0.9601247166994686,
+      "gamma": 0.0
+    },
+    "learning": {
+      "updated": true,
+      "before_digest": "cc7e798162eb413aa08436930c72a3353b42b906af602f4e31c3bbc0f30be932",
+      "after_digest": "88980686aa0139ec6e22ee1de4d1deb73112580c63cd8be23eba6d2617c9c703",
+      "parameter_delta": 0.07995574848856496,
+      "eligible_records": 144,
+      "reason": "EMA of verified prediction progress; objective and question template are fixed"
+    },
+    "selected_topic": "beta",
+    "mean_selected_topic": "beta",
+    "parameter_digest": "88980686aa0139ec6e22ee1de4d1deb73112580c63cd8be23eba6d2617c9c703",
+    "evaluation_unchanged": true,
+    "spent": 144
+  },
+  {
+    "seed": 1,
+    "world": 1,
+    "phase": "initial",
+    "weights": {
+      "alpha": -0.2162038529832376,
+      "beta": 0.8549475355307009,
+      "gamma": 0.0
+    },
+    "learning": {
+      "updated": true,
+      "before_digest": "91be2f1a64c37c7e49e101a42ad0fe341e8c08076f2b8a755b13cd7abc6be927",
+      "after_digest": "a26fe3e5b8122a7142bfa1209c76d28ab6b07edf0890cb64cb20b3080f7eed17",
+      "parameter_delta": 0.04812429032325638,
+      "eligible_records": 72,
+      "reason": "EMA of verified prediction progress; objective and question template are fixed"
+    },
+    "selected_topic": "beta",
+    "mean_selected_topic": "beta",
+    "parameter_digest": "a26fe3e5b8122a7142bfa1209c76d28ab6b07edf0890cb64cb20b3080f7eed17",
+    "evaluation_unchanged": true,
+    "spent": 72
+  },
+  {
+    "seed": 1,
+    "world": 1,
+    "phase": "reversed",
+    "weights": {
+      "alpha": 0.9235556158622316,
+      "beta": -0.0457700592516003,
+      "gamma": 0.0
+    },
+    "learning": {
+      "updated": true,
+      "before_digest": "b1c61b191ca9199cf065bc980431196c1421f67c172fc121851351ad3c8c1b86",
+      "after_digest": "9ef9bf5dfe0da6bc5959f81cd73eafa7e4f7118f5c25ff7d1df846cb16c7032e",
+      "parameter_delta": 0.026999234533171934,
+      "eligible_records": 144,
+      "reason": "EMA of verified prediction progress; objective and question template are fixed"
+    },
+    "selected_topic": "alpha",
+    "mean_selected_topic": "beta",
+    "parameter_digest": "9ef9bf5dfe0da6bc5959f81cd73eafa7e4f7118f5c25ff7d1df846cb16c7032e",
+    "evaluation_unchanged": true,
+    "spent": 144
+  },
+  {
+    "seed": 2,
+    "world": 0,
+    "phase": "initial",
+    "weights": {
+      "alpha": 0.9314692507318535,
+      "beta": -0.049164983308686766,
+      "gamma": 0.0
+    },
+    "learning": {
+      "updated": true,
+      "before_digest": "ad3d7fd618805ba7060aaab55959bf62db490375c2f9b47149c5eb6f9f8367f0",
+      "after_digest": "63b895c1e5a5bc23a85109b98b8c3c2f64f31d93fc7a6624e5bc55fd837799ed",
+      "parameter_delta": 0.028696311855910733,
+      "eligible_records": 72,
+      "reason": "EMA of verified prediction progress; objective and question template are fixed"
+    },
+    "selected_topic": "alpha",
+    "mean_selected_topic": "alpha",
+    "parameter_digest": "63b895c1e5a5bc23a85109b98b8c3c2f64f31d93fc7a6624e5bc55fd837799ed",
+    "evaluation_unchanged": true,
+    "spent": 72
+  },
+  {
+    "seed": 2,
+    "world": 0,
+    "phase": "reversed",
+    "weights": {
+      "alpha": -0.05260888435168157,
+      "beta": 0.93765165910707,
+      "gamma": 0.0
+    },
+    "learning": {
+      "updated": true,
+      "before_digest": "fd59852a218b3eb419cd40a7dda93c561c78d1d5531769f46f8e92442635419b",
+      "after_digest": "2932599048c93b7cc992e592e486c8232e8bf42d90f2ccc8f10d80d300ddd464",
+      "parameter_delta": 0.027893573393051537,
+      "eligible_records": 144,
+      "reason": "EMA of verified prediction progress; objective and question template are fixed"
+    },
+    "selected_topic": "beta",
+    "mean_selected_topic": "alpha",
+    "parameter_digest": "2932599048c93b7cc992e592e486c8232e8bf42d90f2ccc8f10d80d300ddd464",
+    "evaluation_unchanged": true,
+    "spent": 144
+  },
+  {
+    "seed": 2,
+    "world": 1,
+    "phase": "initial",
+    "weights": {
+      "alpha": -0.03166198128949516,
+      "beta": 0.9306177173208823,
+      "gamma": 0.0
+    },
+    "learning": {
+      "updated": true,
+      "before_digest": "f2ed4a9e9ac49ee62769ab271814e43b601d0c84843571eb0773c1a721ef08c2",
+      "after_digest": "4be8d3d9ae5e5c0e0bbb573a6af67e213e41a99c1513e6510505df3c7fe40470",
+      "parameter_delta": 0.028473434996429764,
+      "eligible_records": 72,
+      "reason": "EMA of verified prediction progress; objective and question template are fixed"
+    },
+    "selected_topic": "beta",
+    "mean_selected_topic": "beta",
+    "parameter_digest": "4be8d3d9ae5e5c0e0bbb573a6af67e213e41a99c1513e6510505df3c7fe40470",
+    "evaluation_unchanged": true,
+    "spent": 72
+  },
+  {
+    "seed": 2,
+    "world": 1,
+    "phase": "reversed",
+    "weights": {
+      "alpha": 0.8941897467921465,
+      "beta": -0.04913518895909732,
+      "gamma": 0.0
+    },
+    "learning": {
+      "updated": true,
+      "before_digest": "b2a3a6ef902d037580c7b62ff572df88a09733dd80043bd0d5340771ee99c43f",
+      "after_digest": "a76528c8e71286c901660177b141d959081b57d1dd5c3e0eafcb2cf5a9abbc0e",
+      "parameter_delta": 0.036295550500027016,
+      "eligible_records": 144,
+      "reason": "EMA of verified prediction progress; objective and question template are fixed"
+    },
+    "selected_topic": "alpha",
+    "mean_selected_topic": "beta",
+    "parameter_digest": "a76528c8e71286c901660177b141d959081b57d1dd5c3e0eafcb2cf5a9abbc0e",
+    "evaluation_unchanged": true,
+    "spent": 144
+  },
+  {
+    "seed": 3,
+    "world": 0,
+    "phase": "initial",
+    "weights": {
+      "alpha": 0.8269224595696524,
+      "beta": -0.11437748181085253,
+      "gamma": 0.0
+    },
+    "learning": {
+      "updated": true,
+      "before_digest": "bfb2547ffe97db3f0638888982df50b845c7523c55f10cb3e18dc3d71cd426b0",
+      "after_digest": "0e9fedc260775a4879c254b06c1e7d444796e3229f5dd0196975d0b631c098d2",
+      "parameter_delta": 0.029963034402861854,
+      "eligible_records": 72,
+      "reason": "EMA of verified prediction progress; objective and question template are fixed"
+    },
+    "selected_topic": "alpha",
+    "mean_selected_topic": "alpha",
+    "parameter_digest": "0e9fedc260775a4879c254b06c1e7d444796e3229f5dd0196975d0b631c098d2",
+    "evaluation_unchanged": true,
+    "spent": 72
+  },
+  {
+    "seed": 3,
+    "world": 0,
+    "phase": "reversed",
+    "weights": {
+      "alpha": -0.226936112371106,
+      "beta": 0.9087797009319641,
+      "gamma": 0.0
+    },
+    "learning": {
+      "updated": true,
+      "before_digest": "1c09010239a3cbffede269301c5674b26d54e1d8346c91d8062458b62d1f1e07",
+      "after_digest": "73744ab9bf85b6fd881149f7dc609c78bb5aa5b5ebbceae9baea88d3dc1c24de",
+      "parameter_delta": 0.06160800458392572,
+      "eligible_records": 144,
+      "reason": "EMA of verified prediction progress; objective and question template are fixed"
+    },
+    "selected_topic": "beta",
+    "mean_selected_topic": "beta",
+    "parameter_digest": "73744ab9bf85b6fd881149f7dc609c78bb5aa5b5ebbceae9baea88d3dc1c24de",
+    "evaluation_unchanged": true,
+    "spent": 144
+  },
+  {
+    "seed": 3,
+    "world": 1,
+    "phase": "initial",
+    "weights": {
+      "alpha": -0.2458222231826071,
+      "beta": 0.9034612602505896,
+      "gamma": 0.0
+    },
+    "learning": {
+      "updated": true,
+      "before_digest": "7e9c77d041a0302afeb12cbbde9f0c060e70639e771354d20ff05c4532f0fbde",
+      "after_digest": "41c6fbac99c9121fafc707823006d8398699265e401c1afc2b840719b0de9381",
+      "parameter_delta": 0.07094944646473336,
+      "eligible_records": 72,
+      "reason": "EMA of verified prediction progress; objective and question template are fixed"
+    },
+    "selected_topic": "beta",
+    "mean_selected_topic": "beta",
+    "parameter_digest": "41c6fbac99c9121fafc707823006d8398699265e401c1afc2b840719b0de9381",
+    "evaluation_unchanged": true,
+    "spent": 72
+  },
+  {
+    "seed": 3,
+    "world": 1,
+    "phase": "reversed",
+    "weights": {
+      "alpha": 0.846069827933847,
+      "beta": -0.2172102174643563,
+      "gamma": 0.0
+    },
+    "learning": {
+      "updated": true,
+      "before_digest": "3000a05d3964218ef889e36e7d5ff756630916858fceb4429dc7fdf58cfde41c",
+      "after_digest": "e82f0d5c7a8291c4b4eb830eb3325900ff9a164184ee16bd74798b10e3b84077",
+      "parameter_delta": 0.14039063298626306,
+      "eligible_records": 144,
+      "reason": "EMA of verified prediction progress; objective and question template are fixed"
+    },
+    "selected_topic": "alpha",
+    "mean_selected_topic": "beta",
+    "parameter_digest": "e82f0d5c7a8291c4b4eb830eb3325900ff9a164184ee16bd74798b10e3b84077",
+    "evaluation_unchanged": true,
+    "spent": 144
+  },
+  {
+    "seed": 4,
+    "world": 0,
+    "phase": "initial",
+    "weights": {
+      "alpha": 0.7942644238299829,
+      "beta": -0.11506633914971472,
+      "gamma": 0.0
+    },
+    "learning": {
+      "updated": true,
+      "before_digest": "5d46918ace2a14e6a1fced0e52f015c1bdc1db2ead6619d780d595551e8b3f13",
+      "after_digest": "0bb0f85bdb940b2719db293dd47a2fb14e04e3cec8ee5fa84b1fa24f909cdb87",
+      "parameter_delta": 0.0821451413666195,
+      "eligible_records": 72,
+      "reason": "EMA of verified prediction progress; objective and question template are fixed"
+    },
+    "selected_topic": "alpha",
+    "mean_selected_topic": "alpha",
+    "parameter_digest": "0bb0f85bdb940b2719db293dd47a2fb14e04e3cec8ee5fa84b1fa24f909cdb87",
+    "evaluation_unchanged": true,
+    "spent": 72
+  },
+  {
+    "seed": 4,
+    "world": 0,
+    "phase": "reversed",
+    "weights": {
+      "alpha": -0.16592135486155707,
+      "beta": 0.9304402525151032,
+      "gamma": 0.0
+    },
+    "learning": {
+      "updated": true,
+      "before_digest": "bb0490128547020bf9fe094de964afa3f556214c2fde7c814a5dab282cb50d37",
+      "after_digest": "08403531d6c7372da1c3de9a50bc9b9d3c806c46a476937786a4dbf306b810f4",
+      "parameter_delta": 0.03295635479898693,
+      "eligible_records": 144,
+      "reason": "EMA of verified prediction progress; objective and question template are fixed"
+    },
+    "selected_topic": "beta",
+    "mean_selected_topic": "beta",
+    "parameter_digest": "08403531d6c7372da1c3de9a50bc9b9d3c806c46a476937786a4dbf306b810f4",
+    "evaluation_unchanged": true,
+    "spent": 144
+  },
+  {
+    "seed": 4,
+    "world": 1,
+    "phase": "initial",
+    "weights": {
+      "alpha": -0.18114790814840254,
+      "beta": 0.9441244966245983,
+      "gamma": 0.0
+    },
+    "learning": {
+      "updated": true,
+      "before_digest": "6f90d5b895455359500562210dfb32bff014f99a6d2e118a4a634c78a05b2e32",
+      "after_digest": "2678f540b8aba215cc46e0253fe36ca00c2b4e47828866a241f3d7858b95b209",
+      "parameter_delta": 0.03779383074268414,
+      "eligible_records": 72,
+      "reason": "EMA of verified prediction progress; objective and question template are fixed"
+    },
+    "selected_topic": "beta",
+    "mean_selected_topic": "beta",
+    "parameter_digest": "2678f540b8aba215cc46e0253fe36ca00c2b4e47828866a241f3d7858b95b209",
+    "evaluation_unchanged": true,
+    "spent": 72
+  },
+  {
+    "seed": 4,
+    "world": 1,
+    "phase": "reversed",
+    "weights": {
+      "alpha": 0.8422953233052985,
+      "beta": -0.23811965491872,
+      "gamma": 0.0
+    },
+    "learning": {
+      "updated": true,
+      "before_digest": "2ad729c0cc0651ab4d7ff03557f9e52eea61be9204ad8d3f063ed39c6006cd6f",
+      "after_digest": "30621a73cad97329731041c2373f1d17e25aa000c170ddcc85d3171c11b14603",
+      "parameter_delta": 0.08628844362404635,
+      "eligible_records": 144,
+      "reason": "EMA of verified prediction progress; objective and question template are fixed"
+    },
+    "selected_topic": "alpha",
+    "mean_selected_topic": "beta",
+    "parameter_digest": "30621a73cad97329731041c2373f1d17e25aa000c170ddcc85d3171c11b14603",
+    "evaluation_unchanged": true,
+    "spent": 144
+  }
+]

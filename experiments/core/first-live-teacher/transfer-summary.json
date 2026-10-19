@@ -1,0 +1,202 @@
+{
+  "classification": "Single live-teacher pilot; frozen task variation, not replicated teacher training",
+  "metrics": {
+    "traversal": {
+      "n": 300,
+      "success": 0.59,
+      "operations": 3.07,
+      "reward": 0.1295,
+      "teacher_calls": 0.0,
+      "search_calls": 0.0,
+      "wrong_transfer": 0.0,
+      "fallback_used": 0.0
+    },
+    "same_record_frozen": {
+      "n": 300,
+      "success": 0.59,
+      "operations": 3.07,
+      "reward": 0.1295,
+      "teacher_calls": 0.0,
+      "search_calls": 0.0,
+      "wrong_transfer": 0.0,
+      "fallback_used": 0.0
+    },
+    "rule_memory": {
+      "n": 300,
+      "success": 0.76,
+      "operations": 2.2333333333333334,
+      "reward": 0.425,
+      "teacher_calls": 0.0,
+      "search_calls": 0.0,
+      "wrong_transfer": 0.49333333333333335,
+      "fallback_used": 0.49333333333333335
+    },
+    "learned": {
+      "n": 300,
+      "success": 0.76,
+      "operations": 2.2333333333333334,
+      "reward": 0.425,
+      "teacher_calls": 0.0,
+      "search_calls": 0.0,
+      "wrong_transfer": 0.49333333333333335,
+      "fallback_used": 0.49333333333333335
+    }
+  },
+  "cells": [
+    {
+      "agent": "traversal",
+      "regime": "semantic",
+      "n": 100,
+      "success": 0.56,
+      "operations": 3.1,
+      "reward": 0.095,
+      "teacher_calls": 0.0,
+      "search_calls": 0.0,
+      "wrong_transfer": 0.0,
+      "fallback_used": 0.0
+    },
+    {
+      "agent": "traversal",
+      "regime": "scrambled",
+      "n": 100,
+      "success": 0.63,
+      "operations": 3.11,
+      "reward": 0.16349999999999998,
+      "teacher_calls": 0.0,
+      "search_calls": 0.0,
+      "wrong_transfer": 0.0,
+      "fallback_used": 0.0
+    },
+    {
+      "agent": "traversal",
+      "regime": "legacy",
+      "n": 100,
+      "success": 0.58,
+      "operations": 3.0,
+      "reward": 0.13,
+      "teacher_calls": 0.0,
+      "search_calls": 0.0,
+      "wrong_transfer": 0.0,
+      "fallback_used": 0.0
+    },
+    {
+      "agent": "same_record_frozen",
+      "regime": "semantic",
+      "n": 100,
+      "success": 0.56,
+      "operations": 3.1,
+      "reward": 0.095,
+      "teacher_calls": 0.0,
+      "search_calls": 0.0,
+      "wrong_transfer": 0.0,
+      "fallback_used": 0.0
+    },
+    {
+      "agent": "same_record_frozen",
+      "regime": "scrambled",
+      "n": 100,
+      "success": 0.63,
+      "operations": 3.11,
+      "reward": 0.16349999999999998,
+      "teacher_calls": 0.0,
+      "search_calls": 0.0,
+      "wrong_transfer": 0.0,
+      "fallback_used": 0.0
+    },
+    {
+      "agent": "same_record_frozen",
+      "regime": "legacy",
+      "n": 100,
+      "success": 0.58,
+      "operations": 3.0,
+      "reward": 0.13,
+      "teacher_calls": 0.0,
+      "search_calls": 0.0,
+      "wrong_transfer": 0.0,
+      "fallback_used": 0.0
+    },
+    {
+      "agent": "rule_memory",
+      "regime": "semantic",
+      "n": 100,
+      "success": 1.0,
+      "operations": 1.0,
+      "reward": 0.8499999999999995,
+      "teacher_calls": 0.0,
+      "search_calls": 0.0,
+      "wrong_transfer": 0.0,
+      "fallback_used": 0.0
+    },
+    {
+      "agent": "rule_memory",
+      "regime": "scrambled",
+      "n": 100,
+      "success": 0.58,
+      "operations": 3.22,
+      "reward": 0.09699999999999999,
+      "teacher_calls": 0.0,
+      "search_calls": 0.0,
+      "wrong_transfer": 0.89,
+      "fallback_used": 0.89
+    },
+    {
+      "agent": "rule_memory",
+      "regime": "legacy",
+      "n": 100,
+      "success": 0.7,
+      "operations": 2.48,
+      "reward": 0.32800000000000007,
+      "teacher_calls": 0.0,
+      "search_calls": 0.0,
+      "wrong_transfer": 0.59,
+      "fallback_used": 0.59
+    },
+    {
+      "agent": "learned",
+      "regime": "semantic",
+      "n": 100,
+      "success": 1.0,
+      "operations": 1.0,
+      "reward": 0.8499999999999995,
+      "teacher_calls": 0.0,
+      "search_calls": 0.0,
+      "wrong_transfer": 0.0,
+      "fallback_used": 0.0
+    },
+    {
+      "agent": "learned",
+      "regime": "scrambled",
+      "n": 100,
+      "success": 0.58,
+      "operations": 3.22,
+      "reward": 0.09699999999999999,
+      "teacher_calls": 0.0,
+      "search_calls": 0.0,
+      "wrong_transfer": 0.89,
+      "fallback_used": 0.89
+    },
+    {
+      "agent": "learned",
+      "regime": "legacy",
+      "n": 100,
+      "success": 0.7,
+      "operations": 2.48,
+      "reward": 0.32800000000000007,
+      "teacher_calls": 0.0,
+      "search_calls": 0.0,
+      "wrong_transfer": 0.59,
+      "fallback_used": 0.59
+    }
+  ],
+  "integrity": {
+    "evaluation_parameters_unchanged": true,
+    "train_test_overlap": 0,
+    "test_sha256": "2882b6bb7afbf25f8fd77f5d35fe468165361766df1917b864a12dc63dfb9fc9"
+  },
+  "limits": [
+    "Developer and live teacher are the same assistant; this is not a double-blind independent study.",
+    "Fixtures were sealed before the request, not inspected by the teacher, and not tuned after evaluation.",
+    "Tests cover new layouts/function names within a known audio topic and label family.",
+    "Same-record memory may match learned selection; parameter update alone does not prove unique benefit."
+  ]
+}

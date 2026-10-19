@@ -1,0 +1,66 @@
+{
+  "version": "0.1.0a4",
+  "tests": {
+    "passed": 83,
+    "failed": 0,
+    "log": "tests-a4.txt"
+  },
+  "secret_scan": {
+    "result": "no credential patterns found",
+    "log": "secret-scan-a4.txt",
+    "limitation": "pattern scanner, not proof of absence"
+  },
+  "package": {
+    "wheel_installed": true,
+    "isolated_from_source": true,
+    "matching_source_files": 35,
+    "smoke_freeze_train_evaluate_replay": true,
+    "smoke_executions": 240,
+    "checkpoint_restoration": true,
+    "no_external_api": true
+  },
+  "experiment": {
+    "training_seeds": 5,
+    "training_tasks": 5120,
+    "training_feedback_events": 12236,
+    "test_tasks": 1920,
+    "test_executions": 28800,
+    "matched_replay_decisions": 4595,
+    "evaluation_weights_unchanged": true,
+    "primary": {
+      "comparison": "gru minus context_mlp utility",
+      "paired_seed_differences": [
+        0.0022135416666667074,
+        -0.001041666666666663,
+        -0.011328125000000022,
+        -0.01002604166666654,
+        -0.0069010416666666075
+      ],
+      "mean": -0.005416666666666625,
+      "ci95": [
+        -0.012650245376324698,
+        0.0018169120429914467
+      ]
+    }
+  },
+  "review": {
+    "blocking_findings": 3,
+    "fixed_before_freeze": 3,
+    "regression_tests": true,
+    "independent_rereview": true
+  },
+  "publication": {
+    "local_research_alpha_ready": true,
+    "github_published": false,
+    "pypi_published": false,
+    "remote_ci_run": false,
+    "cross_platform_tested": false
+  },
+  "limitations": [
+    "No GRU advantage over statistics MLP.",
+    "Negative transfer remains unsolved.",
+    "One finite two-category simulator family with engineered skills.",
+    "5% exploration is configured, not learned curiosity.",
+    "No broad self-model, subjective-experience evidence or open-world mastery."
+  ]
+}

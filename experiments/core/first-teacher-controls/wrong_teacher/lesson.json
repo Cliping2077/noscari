@@ -1,0 +1,28 @@
+{
+  "accepted": false,
+  "success": true,
+  "operations": 3,
+  "trace": [
+    "ask:external-request-reserved",
+    "open:root-2:absent",
+    "open:root-0:found"
+  ],
+  "teacher_calls": 1,
+  "search_calls": 0,
+  "before_digest": "48ecd7fc245a008d9dd42a90a77a79d0d45266fc383bb291db78d2479e071417",
+  "recorded_digest": "48ecd7fc245a008d9dd42a90a77a79d0d45266fc383bb291db78d2479e071417",
+  "trained_digest": "48ecd7fc245a008d9dd42a90a77a79d0d45266fc383bb291db78d2479e071417",
+  "before_choice": "traverse",
+  "recorded_choice": "traverse",
+  "after_choice": "traverse",
+  "learning": null,
+  "traversal_retained": true,
+  "exact_rollback": null,
+  "test_sha256": "62d46f11db817d66434b22cd40a06f8b7de03f02a5e3fc1fa02ab16864baa332",
+  "completed_utc": "2026-10-19T03:46:50.763872+00:00",
+  "checkpoints": {
+    "before-checkpoint.json": "440451e46ef0b313007e2cf507fecc9401acb683f644f078694d8954779d57c4",
+    "trained-checkpoint.json": "440451e46ef0b313007e2cf507fecc9401acb683f644f078694d8954779d57c4"
+  },
+  "limitation": "One live lesson; question language is templated, recovery chooser was pretrained on simulated experience."
+}

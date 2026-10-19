@@ -1,0 +1,331 @@
+{
+  "classification": "Frontier Lab exploratory experiment A; not confirmatory evidence",
+  "config": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "worlds": 2,
+    "topics": [
+      "alpha",
+      "beta",
+      "gamma"
+    ],
+    "phases": [
+      "initial",
+      "reversed"
+    ],
+    "train_per_topic": 24,
+    "eval_tasks": 60,
+    "alpha": 0.25,
+    "train_examples": 8,
+    "validation_examples": 64,
+    "test_examples": 128,
+    "objective": "normalized observed validation-loss improvement"
+  },
+  "metrics": {
+    "initial": {
+      "learned": {
+        "n": 600,
+        "test_improvement": 0.9972145516826391,
+        "test_loss_after": 0.00329320468284896,
+        "predictor_delta": 0.9759661937043521,
+        "useful_selection": 1.0,
+        "topic_fractions": {
+          "alpha": 0.5,
+          "beta": 0.5,
+          "gamma": 0.0
+        }
+      },
+      "frozen": {
+        "n": 600,
+        "test_improvement": 0.41362950940576737,
+        "test_loss_after": 0.578372728196865,
+        "predictor_delta": 0.6386854383687399,
+        "useful_selection": 0.5,
+        "topic_fractions": {
+          "alpha": 1.0,
+          "beta": 0.0,
+          "gamma": 0.0
+        }
+      },
+      "uniform": {
+        "n": 600,
+        "test_improvement": 0.30467418835565163,
+        "test_loss_after": 0.3752979001521076,
+        "predictor_delta": 0.44114785522139516,
+        "useful_selection": 0.345,
+        "topic_fractions": {
+          "alpha": 0.335,
+          "beta": 0.335,
+          "gamma": 0.33
+        }
+      },
+      "memory_mean": {
+        "n": 600,
+        "test_improvement": 0.9972145516826391,
+        "test_loss_after": 0.00329320468284896,
+        "predictor_delta": 0.9759661937043521,
+        "useful_selection": 1.0,
+        "topic_fractions": {
+          "alpha": 0.5,
+          "beta": 0.5,
+          "gamma": 0.0
+        }
+      }
+    },
+    "reversed": {
+      "learned": {
+        "n": 600,
+        "test_improvement": 1.0101536770929116,
+        "test_loss_after": 0.003243285389065755,
+        "predictor_delta": 0.9846351936198016,
+        "useful_selection": 1.0,
+        "topic_fractions": {
+          "alpha": 0.5,
+          "beta": 0.5,
+          "gamma": 0.0
+        }
+      },
+      "frozen": {
+        "n": 600,
+        "test_improvement": 0.43746630419135046,
+        "test_loss_after": 0.5641787536536821,
+        "predictor_delta": 0.6383900733620389,
+        "useful_selection": 0.5,
+        "topic_fractions": {
+          "alpha": 1.0,
+          "beta": 0.0,
+          "gamma": 0.0
+        }
+      },
+      "uniform": {
+        "n": 600,
+        "test_improvement": 0.30986196202046606,
+        "test_loss_after": 0.3431110425508186,
+        "predictor_delta": 0.4222609323020483,
+        "useful_selection": 0.34,
+        "topic_fractions": {
+          "alpha": 0.33166666666666667,
+          "beta": 0.31833333333333336,
+          "gamma": 0.35
+        }
+      },
+      "memory_mean": {
+        "n": 600,
+        "test_improvement": 0.1998422866168616,
+        "test_loss_after": 0.8043281412869783,
+        "predictor_delta": 0.5154573717606686,
+        "useful_selection": 0.3,
+        "topic_fractions": {
+          "alpha": 0.2,
+          "beta": 0.8,
+          "gamma": 0.0
+        }
+      }
+    }
+  },
+  "paired_test_improvement": {
+    "initial": {
+      "frozen": {
+        "mean": 0.5835850422768719,
+        "ci95": [
+          0.5658535835270667,
+          0.6013165010266771
+        ],
+        "n_seeds": 5
+      },
+      "uniform": {
+        "mean": 0.6925403633269877,
+        "ci95": [
+          0.6261430361771734,
+          0.7589376904768019
+        ],
+        "n_seeds": 5
+      },
+      "memory_mean": {
+        "mean": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n_seeds": 5
+      }
+    },
+    "reversed": {
+      "frozen": {
+        "mean": 0.5726873729015614,
+        "ci95": [
+          0.541138411133322,
+          0.6042363346698008
+        ],
+        "n_seeds": 5
+      },
+      "uniform": {
+        "mean": 0.7002917150724459,
+        "ci95": [
+          0.6449265344991982,
+          0.7556568956456936
+        ],
+        "n_seeds": 5
+      },
+      "memory_mean": {
+        "mean": 0.8103113904760502,
+        "ci95": [
+          0.42768216785197144,
+          1.192940613100129
+        ],
+        "n_seeds": 5
+      }
+    }
+  },
+  "selections": [
+    {
+      "seed": 0,
+      "world": 0,
+      "phase": "initial",
+      "topic": "alpha"
+    },
+    {
+      "seed": 0,
+      "world": 0,
+      "phase": "reversed",
+      "topic": "beta"
+    },
+    {
+      "seed": 0,
+      "world": 1,
+      "phase": "initial",
+      "topic": "beta"
+    },
+    {
+      "seed": 0,
+      "world": 1,
+      "phase": "reversed",
+      "topic": "alpha"
+    },
+    {
+      "seed": 1,
+      "world": 0,
+      "phase": "initial",
+      "topic": "alpha"
+    },
+    {
+      "seed": 1,
+      "world": 0,
+      "phase": "reversed",
+      "topic": "beta"
+    },
+    {
+      "seed": 1,
+      "world": 1,
+      "phase": "initial",
+      "topic": "beta"
+    },
+    {
+      "seed": 1,
+      "world": 1,
+      "phase": "reversed",
+      "topic": "alpha"
+    },
+    {
+      "seed": 2,
+      "world": 0,
+      "phase": "initial",
+      "topic": "alpha"
+    },
+    {
+      "seed": 2,
+      "world": 0,
+      "phase": "reversed",
+      "topic": "beta"
+    },
+    {
+      "seed": 2,
+      "world": 1,
+      "phase": "initial",
+      "topic": "beta"
+    },
+    {
+      "seed": 2,
+      "world": 1,
+      "phase": "reversed",
+      "topic": "alpha"
+    },
+    {
+      "seed": 3,
+      "world": 0,
+      "phase": "initial",
+      "topic": "alpha"
+    },
+    {
+      "seed": 3,
+      "world": 0,
+      "phase": "reversed",
+      "topic": "beta"
+    },
+    {
+      "seed": 3,
+      "world": 1,
+      "phase": "initial",
+      "topic": "beta"
+    },
+    {
+      "seed": 3,
+      "world": 1,
+      "phase": "reversed",
+      "topic": "alpha"
+    },
+    {
+      "seed": 4,
+      "world": 0,
+      "phase": "initial",
+      "topic": "alpha"
+    },
+    {
+      "seed": 4,
+      "world": 0,
+      "phase": "reversed",
+      "topic": "beta"
+    },
+    {
+      "seed": 4,
+      "world": 1,
+      "phase": "initial",
+      "topic": "beta"
+    },
+    {
+      "seed": 4,
+      "world": 1,
+      "phase": "reversed",
+      "topic": "alpha"
+    }
+  ],
+  "runtime": {
+    "seconds": 21.679633300000205,
+    "device": "cpu",
+    "numpy": "2.5.4",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "api_cost_usd": 0,
+    "external_calls": 0
+  },
+  "integrity": {
+    "train_test_overlap": 0,
+    "evaluation_parameters_unchanged": true,
+    "identical_initial_parameters": true,
+    "balanced_shared_training": true,
+    "training_tasks": 1440,
+    "evaluation_tasks": 4800,
+    "test_outcomes_used_for_feedback": false
+  },
+  "limits": [
+    "The progress objective and question template are engineered, not learned.",
+    "Balanced training is provided; only heldout opportunity selection is autonomous.",
+    "Transfer is within known topic IDs; predictors restart for each micro-task.",
+    "Lower selected-task error alone is not a fair comparison across domains; report improvement and task selection.",
+    "Nothing in this experiment tests subjective experience or human-like development."
+  ]
+}

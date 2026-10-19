@@ -1,0 +1,13 @@
+{
+  "request_id": "5767f7c859a64e129bc8b2fdae4f2945",
+  "reply": {
+    "request_id": "5767f7c859a64e129bc8b2fdae4f2945",
+    "rule": {
+      "audio": "canvas"
+    },
+    "explanation": "Deliberately incorrect advice, injected by the test harness; not the live teacher response."
+  },
+  "teacher_source": "synthetic-fault-injection",
+  "started_utc": "2026-10-19T03:46:50.747352+00:00",
+  "note": "An incomplete session remains locked; this marker never grants a retry or resets parameters."
+}

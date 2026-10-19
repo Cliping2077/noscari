@@ -1,0 +1,35 @@
+{
+  "accepted": true,
+  "success": true,
+  "operations": 2,
+  "trace": [
+    "ask:external-request-reserved",
+    "open:root-0:found"
+  ],
+  "teacher_calls": 1,
+  "search_calls": 0,
+  "before_digest": "48ecd7fc245a008d9dd42a90a77a79d0d45266fc383bb291db78d2479e071417",
+  "recorded_digest": "48ecd7fc245a008d9dd42a90a77a79d0d45266fc383bb291db78d2479e071417",
+  "trained_digest": "1672a3fc5e1f1d80535a72a30c0567ec4cd2c592b4bd6277aa3023e1c076b14b",
+  "before_choice": "traverse",
+  "recorded_choice": "traverse",
+  "after_choice": "semantic",
+  "learning": {
+    "updated": true,
+    "before_digest": "48ecd7fc245a008d9dd42a90a77a79d0d45266fc383bb291db78d2479e071417",
+    "after_digest": "1672a3fc5e1f1d80535a72a30c0567ec4cd2c592b4bd6277aa3023e1c076b14b",
+    "parameter_delta": 0.2563752828063411,
+    "eligible_records": 1,
+    "reason": "replay refit"
+  },
+  "traversal_retained": true,
+  "exact_rollback": true,
+  "test_sha256": "2882b6bb7afbf25f8fd77f5d35fe468165361766df1917b864a12dc63dfb9fc9",
+  "completed_utc": "2026-10-19T03:45:25.018615+00:00",
+  "checkpoints": {
+    "before-checkpoint.json": "098c7f3124823926a3b8dd4727cf25b2d56469e3930688a4b042e65284565009",
+    "recorded-checkpoint.json": "ac5b6bd62d5839d2673a1eb9ba0e73b8225f894f54e2fed0a723efd1dec11b0c",
+    "trained-checkpoint.json": "23b8ac4133e6333c5e5cf3b824233bb4d709bcaa10779e2a0a8e403aac4e258a"
+  },
+  "limitation": "One live lesson; question language is templated, recovery chooser was pretrained on simulated experience."
+}

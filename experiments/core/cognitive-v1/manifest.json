@@ -1,0 +1,30 @@
+{
+  "config": {
+    "seeds": 5,
+    "train_a": 16,
+    "train_b": 48,
+    "train_tasks": 16,
+    "test_sessions": 16,
+    "test_tasks": 24,
+    "epochs_a": 60,
+    "epochs_b": 100,
+    "namespace": "cognitive-v1",
+    "exploration": 0.05
+  },
+  "created_utc": "2026-10-19T05:33:54.573048+00:00",
+  "files": {
+    "train-cases.json": "ab211a5a382fce61c4502b5ced94f1778f3e679d3f596122f07110fafd34a4ce",
+    "test-cases.json": "320335b04a8e46634f8abb19fb9f95e589a01c07e5f145650b1cecccfa782ec3",
+    "protocol.json": "59289786fa2e86ee6a2b70d27caa32e9a6aab24f3e4a4400dd735eb435ff5339",
+    "design-at-freeze.md": "16050aae75851cb53072e5dfb5595c851b784e344e401ed8ebc53249852e6221"
+  },
+  "source_hashes": {
+    "benchmarks/cognitive.py": "87c4b5dc3e0eade1522023dfeeaeccf238cf7a488ad45b2b1a79c5821de86e55",
+    "learning/cognitive.py": "46dcfe2f82eddf5c0b7b4ca259bb5ac84fdc60daef91c54c856ceb5f03972ece",
+    "environments/contextual.py": "a33fa298d82417f480384596b9b9039ad78035e175b6cb76ba670776f27c8b24"
+  },
+  "train_tasks": 5120,
+  "test_tasks": 1920,
+  "train_test_overlap": 0,
+  "boundary": "Policies receive PublicState and verified Evidence only."
+}

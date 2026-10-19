@@ -1,0 +1,348 @@
+{
+  "initial_choice": "traverse",
+  "recorded_choice": "traverse",
+  "trained_choice": "ask",
+  "initial_digest": "01fea0a5016babb13298066322c62f665f1bc8c5c828e38e0cdf42486a3bbb73",
+  "recorded_digest": "01fea0a5016babb13298066322c62f665f1bc8c5c828e38e0cdf42486a3bbb73",
+  "trained_digest": "f79761c6e9a2bb9556fae34101266f69f779a068f2e9de21d6edc7805842720e",
+  "rollback_digest": "01fea0a5016babb13298066322c62f665f1bc8c5c828e38e0cdf42486a3bbb73",
+  "learning": {
+    "updated": true,
+    "before_digest": "01fea0a5016babb13298066322c62f665f1bc8c5c828e38e0cdf42486a3bbb73",
+    "after_digest": "f79761c6e9a2bb9556fae34101266f69f779a068f2e9de21d6edc7805842720e",
+    "parameter_delta": 0.2513194700303112,
+    "eligible_records": 1,
+    "reason": "return-to-go regression"
+  },
+  "episode": {
+    "initial": {
+      "base": {
+        "task_id": "1213a2f23603a43a0a68",
+        "goal": "file:resize-4341",
+        "menus": [
+          {
+            "id": "menu-0",
+            "label": "image"
+          },
+          {
+            "id": "menu-1",
+            "label": "tools"
+          },
+          {
+            "id": "menu-2",
+            "label": "audio"
+          },
+          {
+            "id": "menu-3",
+            "label": "file"
+          },
+          {
+            "id": "menu-4",
+            "label": "extra-0"
+          },
+          {
+            "id": "menu-5",
+            "label": "view"
+          },
+          {
+            "id": "menu-6",
+            "label": "edit"
+          }
+        ],
+        "budget": 8,
+        "allow_search": true,
+        "allow_ask": true,
+        "search_cost": 1,
+        "ask_cost": 1,
+        "search_reliability": 0.65,
+        "teacher_reliability": 0.95,
+        "risk": 0.0
+      },
+      "spent": 1,
+      "opened": [
+        "menu-3"
+      ],
+      "help_used": [],
+      "semantic_failed": true,
+      "hint_failures": 0,
+      "success": false
+    },
+    "prefix": {
+      "before": {
+        "base": {
+          "task_id": "1213a2f23603a43a0a68",
+          "goal": "file:resize-4341",
+          "menus": [
+            {
+              "id": "menu-0",
+              "label": "image"
+            },
+            {
+              "id": "menu-1",
+              "label": "tools"
+            },
+            {
+              "id": "menu-2",
+              "label": "audio"
+            },
+            {
+              "id": "menu-3",
+              "label": "file"
+            },
+            {
+              "id": "menu-4",
+              "label": "extra-0"
+            },
+            {
+              "id": "menu-5",
+              "label": "view"
+            },
+            {
+              "id": "menu-6",
+              "label": "edit"
+            }
+          ],
+          "budget": 8,
+          "allow_search": true,
+          "allow_ask": true,
+          "search_cost": 1,
+          "ask_cost": 1,
+          "search_reliability": 0.65,
+          "teacher_reliability": 0.95,
+          "risk": 0.0
+        },
+        "spent": 0,
+        "opened": [],
+        "help_used": [],
+        "semantic_failed": false,
+        "hint_failures": 0,
+        "success": false
+      },
+      "action": "semantic",
+      "after": {
+        "base": {
+          "task_id": "1213a2f23603a43a0a68",
+          "goal": "file:resize-4341",
+          "menus": [
+            {
+              "id": "menu-0",
+              "label": "image"
+            },
+            {
+              "id": "menu-1",
+              "label": "tools"
+            },
+            {
+              "id": "menu-2",
+              "label": "audio"
+            },
+            {
+              "id": "menu-3",
+              "label": "file"
+            },
+            {
+              "id": "menu-4",
+              "label": "extra-0"
+            },
+            {
+              "id": "menu-5",
+              "label": "view"
+            },
+            {
+              "id": "menu-6",
+              "label": "edit"
+            }
+          ],
+          "budget": 8,
+          "allow_search": true,
+          "allow_ask": true,
+          "search_cost": 1,
+          "ask_cost": 1,
+          "search_reliability": 0.65,
+          "teacher_reliability": 0.95,
+          "risk": 0.0
+        },
+        "spent": 1,
+        "opened": [
+          "menu-3"
+        ],
+        "help_used": [],
+        "semantic_failed": true,
+        "hint_failures": 0,
+        "success": false
+      }
+    },
+    "transitions": [
+      {
+        "before": {
+          "base": {
+            "task_id": "1213a2f23603a43a0a68",
+            "goal": "file:resize-4341",
+            "menus": [
+              {
+                "id": "menu-0",
+                "label": "image"
+              },
+              {
+                "id": "menu-1",
+                "label": "tools"
+              },
+              {
+                "id": "menu-2",
+                "label": "audio"
+              },
+              {
+                "id": "menu-3",
+                "label": "file"
+              },
+              {
+                "id": "menu-4",
+                "label": "extra-0"
+              },
+              {
+                "id": "menu-5",
+                "label": "view"
+              },
+              {
+                "id": "menu-6",
+                "label": "edit"
+              }
+            ],
+            "budget": 8,
+            "allow_search": true,
+            "allow_ask": true,
+            "search_cost": 1,
+            "ask_cost": 1,
+            "search_reliability": 0.65,
+            "teacher_reliability": 0.95,
+            "risk": 0.0
+          },
+          "spent": 1,
+          "opened": [
+            "menu-3"
+          ],
+          "help_used": [],
+          "semantic_failed": true,
+          "hint_failures": 0,
+          "success": false
+        },
+        "action": "ask",
+        "after": {
+          "base": {
+            "task_id": "1213a2f23603a43a0a68",
+            "goal": "file:resize-4341",
+            "menus": [
+              {
+                "id": "menu-0",
+                "label": "image"
+              },
+              {
+                "id": "menu-1",
+                "label": "tools"
+              },
+              {
+                "id": "menu-2",
+                "label": "audio"
+              },
+              {
+                "id": "menu-3",
+                "label": "file"
+              },
+              {
+                "id": "menu-4",
+                "label": "extra-0"
+              },
+              {
+                "id": "menu-5",
+                "label": "view"
+              },
+              {
+                "id": "menu-6",
+                "label": "edit"
+              }
+            ],
+            "budget": 8,
+            "allow_search": true,
+            "allow_ask": true,
+            "search_cost": 1,
+            "ask_cost": 1,
+            "search_reliability": 0.65,
+            "teacher_reliability": 0.95,
+            "risk": 0.0
+          },
+          "spent": 3,
+          "opened": [
+            "menu-2",
+            "menu-3"
+          ],
+          "help_used": [
+            "ask"
+          ],
+          "semantic_failed": true,
+          "hint_failures": 0,
+          "success": true
+        }
+      }
+    ],
+    "final": {
+      "base": {
+        "task_id": "1213a2f23603a43a0a68",
+        "goal": "file:resize-4341",
+        "menus": [
+          {
+            "id": "menu-0",
+            "label": "image"
+          },
+          {
+            "id": "menu-1",
+            "label": "tools"
+          },
+          {
+            "id": "menu-2",
+            "label": "audio"
+          },
+          {
+            "id": "menu-3",
+            "label": "file"
+          },
+          {
+            "id": "menu-4",
+            "label": "extra-0"
+          },
+          {
+            "id": "menu-5",
+            "label": "view"
+          },
+          {
+            "id": "menu-6",
+            "label": "edit"
+          }
+        ],
+        "budget": 8,
+        "allow_search": true,
+        "allow_ask": true,
+        "search_cost": 1,
+        "ask_cost": 1,
+        "search_reliability": 0.65,
+        "teacher_reliability": 0.95,
+        "risk": 0.0
+      },
+      "spent": 3,
+      "opened": [
+        "menu-2",
+        "menu-3"
+      ],
+      "help_used": [
+        "ask"
+      ],
+      "semantic_failed": true,
+      "hint_failures": 0,
+      "success": true
+    },
+    "rule": {},
+    "verified": true,
+    "subject_id": "synthetic",
+    "source": "simulator"
+  },
+  "limitation": "One selected successful teaching example proves an interface/behavior change, not general recovery improvement."
+}

@@ -1,0 +1,30 @@
+{
+  "questions": [
+    "Can I improve my prediction of alpha?",
+    "Can I improve my prediction of beta?",
+    "Can I improve my prediction of gamma?"
+  ],
+  "initial_choice": "alpha",
+  "trained_choice": "beta",
+  "recording_unchanged": true,
+  "learning": {
+    "updated": true,
+    "before_digest": "8b91de3e1d11017b5868a1be656eccb1f5fa3de1ca4fe1099304fdb34fe1f955",
+    "after_digest": "c6427446d79d9c8925371a732999a3d75d3124d758d7f3961c9fe9be34978b07",
+    "parameter_delta": 0.6162526344014374,
+    "eligible_records": 12,
+    "reason": "EMA of verified prediction progress; objective and question template are fixed"
+  },
+  "weights": {
+    "alpha": -0.04557005056461181,
+    "beta": 0.6145654398827275,
+    "gamma": 0.0
+  },
+  "initial_digest": "8b91de3e1d11017b5868a1be656eccb1f5fa3de1ca4fe1099304fdb34fe1f955",
+  "trained_digest": "c6427446d79d9c8925371a732999a3d75d3124d758d7f3961c9fe9be34978b07",
+  "restored_same_parameters": true,
+  "restored_same_goals": true,
+  "pause_blocks_suggestions": true,
+  "spent": 12,
+  "limitation": "Template questions and a fixed progress objective; this engineering demo does not establish human curiosity."
+}

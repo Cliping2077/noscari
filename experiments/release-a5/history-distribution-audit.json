@@ -1,0 +1,47 @@
+{
+  "files": 1043,
+  "bytes": 566321290,
+  "archives": [
+    {
+      "path": "axiom_learning_core-0.1.0a1-py3-none-any.whl",
+      "sha256": "e7abd128e503e74ed92aa8f89c6ee64cf801d1753838d5e8240fbcb23dee5abe"
+    },
+    {
+      "path": "axiom_learning_core-0.1.0a1.tar.gz",
+      "sha256": "0d79f7f4512172f67a105e48d630df48ec05313e66fe953441858a5e93572e92"
+    },
+    {
+      "path": "axiom_learning_core-0.1.0a2-py3-none-any.whl",
+      "sha256": "1d29827cce38b283820b09813aeb339ee79de7d71504067e50d2320ca77dfcd6"
+    },
+    {
+      "path": "axiom_learning_core-0.1.0a2.tar.gz",
+      "sha256": "764cb90e2ddae4902a425360a36510ae33b04ad7df8bb099d8d269c74c4fd079"
+    },
+    {
+      "path": "axiom_learning_core-0.1.0a3-py3-none-any.whl",
+      "sha256": "42d02e694531517e192d0c3f2b1c91b61f494cb97197746bd7dac95787f313a6"
+    },
+    {
+      "path": "axiom_learning_core-0.1.0a3.tar.gz",
+      "sha256": "7c022c82ad50ae0d5a219aaac3b3422b66e81405dc5fbbfd2778654e6f2ddced"
+    },
+    {
+      "path": "axiom_learning_core-0.1.0a4-py3-none-any.whl",
+      "sha256": "93bacbabc02df5e316a9c8c39c2183ae4c724f10169f13c63ec7a6810ae681fd"
+    },
+    {
+      "path": "axiom_learning_core-0.1.0a4.tar.gz",
+      "sha256": "a98ce76575c3fafa2dcc0b664cc5249d7d24f2782c7d9ecf8693394a3fa05dd3"
+    }
+  ],
+  "inputs": [
+    "dist"
+  ],
+  "findings": [],
+  "errors": [],
+  "excluded": [],
+  "binary_unread": [],
+  "git_history": "not scanned by this file/archive tool",
+  "clean": true
+}

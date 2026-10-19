@@ -1,0 +1,49 @@
+{
+  "version": "0.1.0a2",
+  "tests": {
+    "passed": 56,
+    "failed": 0,
+    "log": "tests-a2.txt"
+  },
+  "secret_scan": {
+    "result": "no credential patterns found",
+    "log": "secret-scan-a2.txt",
+    "limitation": "pattern scanner, not proof of absence"
+  },
+  "package": {
+    "wheel_installed": true,
+    "isolated_from_source": true,
+    "matching_source_files": 29,
+    "recovery_demo": true,
+    "motivation_demo": true,
+    "checkpoint_restores": true,
+    "command": "python -m pip --python work/.venv/Scripts/python.exe install --no-index --no-deps --target work/wheel-install-a2 outputs/axiom/dist/axiom_learning_core-0.1.0a2-py3-none-any.whl"
+  },
+  "experiments": {
+    "core_round2": {
+      "test_episodes": 32400,
+      "seeds": 5,
+      "policy_arms": 9
+    },
+    "frontier_interest": {
+      "training_tasks": 1440,
+      "test_executions": 4800,
+      "seeds": 5,
+      "worlds": 2,
+      "phases": 2,
+      "policies": 4
+    }
+  },
+  "review": {
+    "recovery_findings": 2,
+    "recovery_resolved": 2,
+    "frontier_blockers": 0,
+    "scope": "read-only code review"
+  },
+  "claims": {
+    "subjective_experience": "untested",
+    "emergent_objective": false,
+    "human_like_learning": "not established"
+  },
+  "publication": "local files only; no remote CI, GitHub or PyPI publication"
+}

@@ -1,0 +1,265 @@
+{
+  "classification": "Engineering reproduction of public data, not a new independent study",
+  "installed_package": true,
+  "package_version": "0.1.0a5",
+  "python": "3.14.6",
+  "torch": "2.14.1+cpu",
+  "seconds": 234.85691860000225,
+  "checks": [
+    {
+      "name": "round1",
+      "fields": [
+        "config",
+        "aggregate",
+        "cells",
+        "per_seed",
+        "paired_axiom_minus_baseline",
+        "integrity"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "53e4c698ee6ea0366417d1d59022e71d0908d0f6727457c0609b5e00a7fbacb6",
+      "reproduced_sha256": "9730d6b4fe8c2b8a7b5812583e9dcc5494453b7204249ce6987417f59eca4451",
+      "passed": true
+    },
+    {
+      "name": "round1-parameters",
+      "excluded_field": "training_seconds",
+      "differences": [],
+      "reference_sha256": "7d9715a87014819e9d40411400c8ae28e7c11f188b139cbc45957971c04e9dff",
+      "reproduced_sha256": "876ad481dc140145f08c70263db33771c5147b18cabea7ada719f71978ed6a8b",
+      "passed": true
+    },
+    {
+      "name": "retention",
+      "fields": [
+        "config",
+        "aggregate",
+        "states",
+        "episodes"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "b0677f653a66487b90b496d5fa76bbe2eb366d228a007454507ab035802017ec",
+      "reproduced_sha256": "b0677f653a66487b90b496d5fa76bbe2eb366d228a007454507ab035802017ec",
+      "passed": true
+    },
+    {
+      "name": "round2",
+      "fields": [
+        "config",
+        "all_tasks",
+        "failed_prefix",
+        "per_seed_failed_prefix",
+        "paired_recovery_minus_baseline",
+        "prediction_error",
+        "cells",
+        "integrity"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "78962cbaf79199bd25c4b3cd45e01d4b2dbd66d932820b072fe2d47d7aa4a636",
+      "reproduced_sha256": "636669752f88444e6398c9fbe478a35f823e0a63bf7fb7ce55d1350994f920fa",
+      "passed": true
+    },
+    {
+      "name": "round2-parameters",
+      "excluded_field": "fit_seconds",
+      "differences": [],
+      "reference_sha256": "66c5018375d20c0122860e980430c95a824ff7280ca6f755d763c66a59854a3b",
+      "reproduced_sha256": "701bf606a0f873f47d5806c736c9a064899148c1e34fa845ad005a3fe50a85fe",
+      "passed": true
+    },
+    {
+      "name": "interest",
+      "fields": [
+        "config",
+        "metrics",
+        "paired_test_improvement",
+        "selections",
+        "integrity"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "a51c44b11555d5f35c496459893e6ad42614a9bd9988e6b916c53566bd0d023b",
+      "reproduced_sha256": "7ba3556685a16fa3c83594c9ae9c843a171776eee7290437c75d1839d797f3b5",
+      "passed": true
+    },
+    {
+      "name": "interest-parameters",
+      "excluded_field": null,
+      "differences": [],
+      "reference_sha256": "9dc7c62ad794078a586f5d10b307c0b8a52d1e5a0a93136a1ea7feed2b1d1708",
+      "reproduced_sha256": "9dc7c62ad794078a586f5d10b307c0b8a52d1e5a0a93136a1ea7feed2b1d1708",
+      "passed": true
+    },
+    {
+      "name": "one-demo",
+      "fields": [
+        "before_digest",
+        "after_recording_digest",
+        "learning",
+        "before_choice",
+        "after_choice",
+        "rollback_digest",
+        "skills",
+        "aggregate",
+        "cells",
+        "episodes"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "5a7562b39924cdf937aef559d8f13ec1838574663399cb079b4298c7a2a70921",
+      "reproduced_sha256": "5a7562b39924cdf937aef559d8f13ec1838574663399cb079b4298c7a2a70921",
+      "passed": true
+    },
+    {
+      "name": "round2-demo",
+      "fields": [
+        "initial_choice",
+        "recorded_choice",
+        "trained_choice",
+        "initial_digest",
+        "recorded_digest",
+        "trained_digest",
+        "rollback_digest",
+        "learning"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "286db19050feb9463f806dcfb0d8a0439103c909317b1cdf0fd2db674d6355d8",
+      "reproduced_sha256": "286db19050feb9463f806dcfb0d8a0439103c909317b1cdf0fd2db674d6355d8",
+      "passed": true
+    },
+    {
+      "name": "motivation-demo",
+      "excluded_field": null,
+      "differences": [],
+      "reference_sha256": "60dfe925c4548920316a214696232e7b8535d06ad02e02d4f5c11ce9b467ffec",
+      "reproduced_sha256": "60dfe925c4548920316a214696232e7b8535d06ad02e02d4f5c11ce9b467ffec",
+      "passed": true
+    },
+    {
+      "name": "teacher-transfer",
+      "fields": [
+        "metrics",
+        "cells"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "65dd05351aa3d11407a7bc5433bb3d869f48f268e722126505db3edd352eec0a",
+      "reproduced_sha256": "0b33a6a8c67d88c6ee84464ce2cc2149554843b691348818aa57371fd5af057d",
+      "passed": true
+    },
+    {
+      "name": "teacher-parameters",
+      "fields": [
+        "accepted",
+        "success",
+        "operations",
+        "trace",
+        "before_digest",
+        "recorded_digest",
+        "trained_digest",
+        "learning",
+        "traversal_retained",
+        "exact_rollback",
+        "test_sha256"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "2826fff033c8391e4a3c4ca3f3460091144572169229c09c369e780b94d12aeb",
+      "reproduced_sha256": "7144d7b55e053567032f17674851de76f878b67e57903da09321536cdb55e84d",
+      "passed": true
+    },
+    {
+      "name": "teacher-controls",
+      "fields": [
+        "teaching_task_traversal_counterfactual",
+        "prior_selector",
+        "teacher_denied",
+        "no_reply"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "2b0461a8183966f272e8b1fe4c59d46df75517008146bbb15bc612de88b9d676",
+      "reproduced_sha256": "fdf7f4cca2b434b3756a18b5fd7398544c1eea7e7f264bc9b0ba95cf5932be6a",
+      "passed": true
+    },
+    {
+      "name": "wrong-teacher",
+      "fields": [
+        "accepted",
+        "success",
+        "operations",
+        "trace",
+        "before_digest",
+        "trained_digest",
+        "learning"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "55b429f1cd3219df5913534213eb038804452fb37af546577f647abcc5b7681a",
+      "reproduced_sha256": "802e73586e506895124b0348da5377b02a798e36287e5beada1764ee903e8da5",
+      "passed": true
+    },
+    {
+      "name": "cognitive",
+      "fields": [
+        "overall",
+        "cells",
+        "seed_metrics",
+        "primary",
+        "evaluation_weights_unchanged",
+        "test_tasks",
+        "test_executions",
+        "api_calls",
+        "artifacts"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "2ac7ed77152f8bd4266524565002caa870847b7f06a843868e95aa9e10dd4b0b",
+      "reproduced_sha256": "396147d0bb3e66306ba2ab5a2a98c3882b584434264f139ba0c799f5e6c4bab8",
+      "passed": true
+    },
+    {
+      "name": "cognitive-training",
+      "fields": [
+        "audits",
+        "checkpoints",
+        "training_data_hashes"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "2814e19d8238877d675e7cdac7521726e9cab43a2ca7f7b2789afa94b5308877",
+      "reproduced_sha256": "db4ade7c80ad1fe2ee3c3e8058264f526e8e8b9c041f9f269cee8dd745173127",
+      "passed": true
+    },
+    {
+      "name": "cognitive-replay",
+      "fields": [
+        "matched_decisions",
+        "environment_feedback",
+        "candidates",
+        "hidden_states",
+        "checkpoint_restoration"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "c8fa7f15d6d5afd1098ab0f8679990793550d64c6adf7c4165cc1931c99a30de",
+      "reproduced_sha256": "c8fa7f15d6d5afd1098ab0f8679990793550d64c6adf7c4165cc1931c99a30de",
+      "passed": true
+    }
+  ],
+  "completed": true,
+  "expected_checks": 17,
+  "passed": true,
+  "status": "completed",
+  "error_type": null,
+  "next_expected_check": null,
+  "numeric_tolerance": {
+    "relative": 1e-10,
+    "absolute": 1e-10
+  },
+  "exclusions": "Wall time, host platform, timestamps and event/request UUIDs are not performance measurements. Selected result fields are explicit per check; no global filtering."
+}

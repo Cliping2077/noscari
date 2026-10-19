@@ -1,0 +1,75 @@
+{
+  "request_id": "74b2f039597a49bf8a966e28669638c3",
+  "learner_name": "Noscari Baby",
+  "selected_action": "ask",
+  "state": {
+    "base": {
+      "task_id": "8181b9b50122358ff5b16aba",
+      "goal": "audio:reduce-hiss-20780",
+      "menus": [
+        {
+          "id": "root-0",
+          "label": "Sound desk"
+        },
+        {
+          "id": "root-1",
+          "label": "Arrangement"
+        },
+        {
+          "id": "root-2",
+          "label": "Canvas"
+        },
+        {
+          "id": "root-3",
+          "label": "Panel 0"
+        },
+        {
+          "id": "root-4",
+          "label": "Workspace"
+        },
+        {
+          "id": "root-5",
+          "label": "Documents"
+        },
+        {
+          "id": "root-6",
+          "label": "Export"
+        },
+        {
+          "id": "root-7",
+          "label": "Panel 1"
+        }
+      ],
+      "budget": 4,
+      "allow_search": false,
+      "allow_ask": true,
+      "search_cost": 2,
+      "ask_cost": 1,
+      "search_reliability": 0.8,
+      "teacher_reliability": 0.95,
+      "risk": 0.0
+    },
+    "spent": 0,
+    "opened": [],
+    "help_used": [],
+    "semantic_failed": false,
+    "hint_failures": 0,
+    "success": false
+  },
+  "known_methods": [
+    "traverse"
+  ],
+  "question": "My current goal is audio:reduce-hiss-20780. I have opened 0 menu(s) without completing it, and have 4 operation units left. Search is unavailable. I do not yet have a learned semantic method for these labels. Could you teach me how to choose a relevant menu for this kind of task, so I can try it myself?",
+  "decision_reason": "ask has the largest learned score among authorized, affordable candidates; no semantic skill exists yet",
+  "candidates": [
+    {
+      "method": "ask",
+      "score": 0.6294580242898685
+    },
+    {
+      "method": "traverse",
+      "score": 0.49763994484241936
+    }
+  ],
+  "chooser_digest": "0c0a549667a1c2590f84d489ade41f5de689054157d10f2ecabc437876a202a4"
+}

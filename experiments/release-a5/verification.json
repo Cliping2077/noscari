@@ -1,0 +1,114 @@
+{
+  "version": "0.1.0a5",
+  "scope": "Publication preparation, no new cognitive algorithm",
+  "clean_environment": {
+    "new_virtual_environment": true,
+    "include_system_site_packages": false,
+    "interpreter": "Python 3.14.6",
+    "os": "Windows",
+    "dependencies": 24,
+    "source_of_dependencies": "PyPI/files.pythonhosted.org",
+    "installed_final_wheel": true,
+    "matching_python_source_files": 35,
+    "pip_check": true,
+    "separate_core_without_torch": true
+  },
+  "tests": {
+    "full_passed": 89,
+    "full_failed": 0,
+    "core_passed": 75,
+    "core_skipped_entries": 3
+  },
+  "reproduction": {
+    "full_completed": true,
+    "checks": 17,
+    "all_passed": true,
+    "seconds": 234.85691860000225,
+    "supplemental_checks": 5,
+    "cognitive_replayed_decisions": 4595,
+    "recorded_teacher_answer_replay_not_new_teacher": true,
+    "no_new_independent_scientific_replication": true
+  },
+  "dependency_license_inventory": {
+    "distributions": 24,
+    "license_and_attribution_files": 152
+  },
+  "preserved": {
+    "historical_artifacts": [
+      {
+        "path": "axiom-round1.zip",
+        "sha256": "35146d9466003c1071f0aba937eb269ee47e8387e75fef60a64cd807a9debf1b"
+      },
+      {
+        "path": "axiom\\dist\\axiom_learning_core-0.1.0a1-py3-none-any.whl",
+        "sha256": "e7abd128e503e74ed92aa8f89c6ee64cf801d1753838d5e8240fbcb23dee5abe"
+      },
+      {
+        "path": "axiom\\dist\\axiom_learning_core-0.1.0a1.tar.gz",
+        "sha256": "0d79f7f4512172f67a105e48d630df48ec05313e66fe953441858a5e93572e92"
+      },
+      {
+        "path": "noscari-baby-v02-alpha2.zip",
+        "sha256": "ee6e19e73a46bf07ae669037c8e405774104b8bbd0820a3bd9d4ccbbf1004371"
+      },
+      {
+        "path": "axiom/dist/axiom_learning_core-0.1.0a2-py3-none-any.whl",
+        "sha256": "1d29827cce38b283820b09813aeb339ee79de7d71504067e50d2320ca77dfcd6"
+      },
+      {
+        "path": "axiom/dist/axiom_learning_core-0.1.0a2.tar.gz",
+        "sha256": "764cb90e2ddae4902a425360a36510ae33b04ad7df8bb099d8d269c74c4fd079"
+      },
+      {
+        "path": "noscari-baby-first-teacher-alpha3.zip",
+        "sha256": "9e4fb2567a37ca879869b8862473ae1224c16b3ca26124cceae546d7149c6ec9"
+      },
+      {
+        "path": "axiom/dist/axiom_learning_core-0.1.0a3-py3-none-any.whl",
+        "sha256": "42d02e694531517e192d0c3f2b1c91b61f494cb97197746bd7dac95787f313a6"
+      },
+      {
+        "path": "axiom/dist/axiom_learning_core-0.1.0a3.tar.gz",
+        "sha256": "7c022c82ad50ae0d5a219aaac3b3422b66e81405dc5fbbfd2778654e6f2ddced"
+      },
+      {
+        "path": "noscari-baby-cognitive-alpha4.zip",
+        "sha256": "e034ecea1a5524f8e24b541817e0ad37099d1860c11bd5aa1206d36f6c4476a2"
+      },
+      {
+        "path": "axiom/dist/axiom_learning_core-0.1.0a4-py3-none-any.whl",
+        "sha256": "93bacbabc02df5e316a9c8c39c2183ae4c724f10169f13c63ec7a6810ae681fd"
+      },
+      {
+        "path": "axiom/dist/axiom_learning_core-0.1.0a4.tar.gz",
+        "sha256": "a98ce76575c3fafa2dcc0b664cc5249d7d24f2782c7d9ecf8693394a3fa05dd3"
+      }
+    ],
+    "alpha4_experiment_files_unchanged": 330,
+    "cognitive_source_hashes": {
+      "benchmarks/cognitive.py": "87c4b5dc3e0eade1522023dfeeaeccf238cf7a488ad45b2b1a79c5821de86e55",
+      "learning/cognitive.py": "46dcfe2f82eddf5c0b7b4ca259bb5ac84fdc60daef91c54c856ceb5f03972ece",
+      "environments/contextual.py": "a33fa298d82417f480384596b9b9039ad78035e175b6cb76ba670776f27c8b24"
+    }
+  },
+  "review": {
+    "independent": true,
+    "important_findings_resolved": true,
+    "release_tool_tests": 6,
+    "fault_injection_failed_run_cannot_pass": true
+  },
+  "publication": {
+    "local_preparation": true,
+    "remote_ci_executed": false,
+    "cross_platform_verified": false,
+    "github_created": false,
+    "github_published": false,
+    "pypi_published": false,
+    "user_public_confirmation_received": false
+  },
+  "limitations": [
+    "Same OS and base interpreter; separate environment, not a different machine.",
+    "Pattern screening and source review, not proof of zero privacy risk or a CVE audit.",
+    "Remote CI and explicit publication authorization remain pending."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "primary": "paired seed mean utility: gru minus context_mlp",
+  "learning": "chosen-action within-task Monte Carlo MSE + 0.25 immediate-success BCE",
+  "optimizer": "Adam lr=0.003; fresh optimizer per phase; full-sequence causal replay",
+  "reward": "completion - 0.6*consumed/budget",
+  "comparison": "same experience, tasks, operation budgets; matched neural parameter counts",
+  "state": "reset between software sessions; persist between tasks; frozen evaluation weights",
+  "config": {
+    "seeds": 5,
+    "train_a": 16,
+    "train_b": 48,
+    "train_tasks": 16,
+    "test_sessions": 16,
+    "test_tasks": 24,
+    "epochs_a": 60,
+    "epochs_b": 100,
+    "namespace": "cognitive-v1",
+    "exploration": 0.05
+  }
+}

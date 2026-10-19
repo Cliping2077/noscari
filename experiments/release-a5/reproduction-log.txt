@@ -1,0 +1,112 @@
+round1: PASS
+round1-parameters: PASS
+retention: PASS
+round2: PASS
+round2-parameters: PASS
+interest: PASS
+interest-parameters: PASS
+one-demo: PASS
+round2-demo: PASS
+motivation-demo: PASS
+teacher-transfer: PASS
+teacher-parameters: PASS
+teacher-controls: PASS
+wrong-teacher: PASS
+trained seed=0 kind=gru transitions=2412
+trained seed=0 kind=mlp transitions=2412
+trained seed=0 kind=context_mlp transitions=2412
+trained seed=0 kind=linear transitions=2412
+trained seed=1 kind=gru transitions=2497
+trained seed=1 kind=mlp transitions=2497
+trained seed=1 kind=context_mlp transitions=2497
+trained seed=1 kind=linear transitions=2497
+trained seed=2 kind=gru transitions=2425
+trained seed=2 kind=mlp transitions=2425
+trained seed=2 kind=context_mlp transitions=2425
+trained seed=2 kind=linear transitions=2425
+trained seed=3 kind=gru transitions=2405
+trained seed=3 kind=mlp transitions=2405
+trained seed=3 kind=context_mlp transitions=2405
+trained seed=3 kind=linear transitions=2405
+trained seed=4 kind=gru transitions=2497
+trained seed=4 kind=mlp transitions=2497
+trained seed=4 kind=context_mlp transitions=2497
+trained seed=4 kind=linear transitions=2497
+evaluated seed=0 policy=traverse
+evaluated seed=0 policy=rule_memory
+evaluated seed=0 policy=ema_greedy
+evaluated seed=0 policy=linear
+evaluated seed=0 policy=mlp
+evaluated seed=0 policy=context_mlp
+evaluated seed=0 policy=gru
+evaluated seed=0 policy=gru_untrained
+evaluated seed=0 policy=gru_reset_task
+evaluated seed=0 policy=gru_no_help
+evaluated seed=0 policy=gru_no_replay
+evaluated seed=0 policy=phase_a_gru
+evaluated seed=0 policy=phase_a_mlp
+evaluated seed=0 policy=phase_a_context_mlp
+evaluated seed=0 policy=phase_a_linear
+evaluated seed=1 policy=traverse
+evaluated seed=1 policy=rule_memory
+evaluated seed=1 policy=ema_greedy
+evaluated seed=1 policy=linear
+evaluated seed=1 policy=mlp
+evaluated seed=1 policy=context_mlp
+evaluated seed=1 policy=gru
+evaluated seed=1 policy=gru_untrained
+evaluated seed=1 policy=gru_reset_task
+evaluated seed=1 policy=gru_no_help
+evaluated seed=1 policy=gru_no_replay
+evaluated seed=1 policy=phase_a_gru
+evaluated seed=1 policy=phase_a_mlp
+evaluated seed=1 policy=phase_a_context_mlp
+evaluated seed=1 policy=phase_a_linear
+evaluated seed=2 policy=traverse
+evaluated seed=2 policy=rule_memory
+evaluated seed=2 policy=ema_greedy
+evaluated seed=2 policy=linear
+evaluated seed=2 policy=mlp
+evaluated seed=2 policy=context_mlp
+evaluated seed=2 policy=gru
+evaluated seed=2 policy=gru_untrained
+evaluated seed=2 policy=gru_reset_task
+evaluated seed=2 policy=gru_no_help
+evaluated seed=2 policy=gru_no_replay
+evaluated seed=2 policy=phase_a_gru
+evaluated seed=2 policy=phase_a_mlp
+evaluated seed=2 policy=phase_a_context_mlp
+evaluated seed=2 policy=phase_a_linear
+evaluated seed=3 policy=traverse
+evaluated seed=3 policy=rule_memory
+evaluated seed=3 policy=ema_greedy
+evaluated seed=3 policy=linear
+evaluated seed=3 policy=mlp
+evaluated seed=3 policy=context_mlp
+evaluated seed=3 policy=gru
+evaluated seed=3 policy=gru_untrained
+evaluated seed=3 policy=gru_reset_task
+evaluated seed=3 policy=gru_no_help
+evaluated seed=3 policy=gru_no_replay
+evaluated seed=3 policy=phase_a_gru
+evaluated seed=3 policy=phase_a_mlp
+evaluated seed=3 policy=phase_a_context_mlp
+evaluated seed=3 policy=phase_a_linear
+evaluated seed=4 policy=traverse
+evaluated seed=4 policy=rule_memory
+evaluated seed=4 policy=ema_greedy
+evaluated seed=4 policy=linear
+evaluated seed=4 policy=mlp
+evaluated seed=4 policy=context_mlp
+evaluated seed=4 policy=gru
+evaluated seed=4 policy=gru_untrained
+evaluated seed=4 policy=gru_reset_task
+evaluated seed=4 policy=gru_no_help
+evaluated seed=4 policy=gru_no_replay
+evaluated seed=4 policy=phase_a_gru
+evaluated seed=4 policy=phase_a_mlp
+evaluated seed=4 policy=phase_a_context_mlp
+evaluated seed=4 policy=phase_a_linear
+cognitive: PASS
+cognitive-training: PASS
+cognitive-replay: PASS

@@ -1,0 +1,92 @@
+{
+  "version": "0.1.0a3",
+  "tests": {
+    "passed": 66,
+    "failed": 0,
+    "log": "tests-a3.txt"
+  },
+  "secret_scan": {
+    "result": "no credential patterns found",
+    "log": "secret-scan-a3.txt",
+    "limitation": "pattern scanner, not proof of absence"
+  },
+  "package": {
+    "wheel_installed": true,
+    "isolated_from_source": true,
+    "matching_source_files": 32,
+    "teacher_prepare_resume_evaluate": true,
+    "checkpoint_restore": true,
+    "smoke_test": "recorded rule replay on development fixtures; not new live teaching",
+    "smoke_test_executions": 60
+  },
+  "live_experiment": {
+    "real_teacher_lessons": 1,
+    "frozen_test_tasks": 300,
+    "test_executions": 1200,
+    "metrics": {
+      "traversal": {
+        "n": 300,
+        "success": 0.59,
+        "operations": 3.07,
+        "reward": 0.1295,
+        "teacher_calls": 0.0,
+        "search_calls": 0.0,
+        "wrong_transfer": 0.0,
+        "fallback_used": 0.0
+      },
+      "same_record_frozen": {
+        "n": 300,
+        "success": 0.59,
+        "operations": 3.07,
+        "reward": 0.1295,
+        "teacher_calls": 0.0,
+        "search_calls": 0.0,
+        "wrong_transfer": 0.0,
+        "fallback_used": 0.0
+      },
+      "rule_memory": {
+        "n": 300,
+        "success": 0.76,
+        "operations": 2.2333333333333334,
+        "reward": 0.425,
+        "teacher_calls": 0.0,
+        "search_calls": 0.0,
+        "wrong_transfer": 0.49333333333333335,
+        "fallback_used": 0.49333333333333335
+      },
+      "learned": {
+        "n": 300,
+        "success": 0.76,
+        "operations": 2.2333333333333334,
+        "reward": 0.425,
+        "teacher_calls": 0.0,
+        "search_calls": 0.0,
+        "wrong_transfer": 0.49333333333333335,
+        "fallback_used": 0.49333333333333335
+      }
+    },
+    "integrity": {
+      "evaluation_parameters_unchanged": true,
+      "train_test_overlap": 0,
+      "test_sha256": "2882b6bb7afbf25f8fd77f5d35fe468165361766df1917b864a12dc63dfb9fc9"
+    }
+  },
+  "review": {
+    "blocking_findings": 1,
+    "blocking_findings_fixed": 1,
+    "checkpoint_integrity_and_provenance_improved": true,
+    "interruption_and_checkpoint_swap_regression_tests": true,
+    "scope": "read-only review; independent reviewer confirmed fixes; no live holdout inspected"
+  },
+  "limitations": [
+    "Single teacher lesson; task groups are not independent training replications.",
+    "The lesson task was solvable by traversal in one step; necessity of help was not demonstrated.",
+    "Question wording is templated; the pretrained ask chooser was not updated in this lesson.",
+    "Direct rule-memory baseline matched the learned selector.",
+    "Negative transfer on scrambled layouts; fallback timing was preprogrammed.",
+    "Developer and live teacher were the same assistant, not independent blinded roles.",
+    "Partial lesson sessions lock on interruption; automatic crash recovery is not implemented.",
+    "No open-world search or learned persistent self-model; subjective experience untested."
+  ],
+  "publication": "local artifacts only; no remote CI, GitHub or PyPI publication"
+}

@@ -1,0 +1,228 @@
+{
+  "classification": "Engineering reproduction of public data, not a new independent study",
+  "installed_package": true,
+  "package_version": "0.1.0a4",
+  "python": "3.14.6",
+  "torch": "2.14.1+cpu",
+  "seconds": 303.4988465999995,
+  "checks": [
+    {
+      "name": "round1",
+      "fields": [
+        "config",
+        "aggregate",
+        "cells",
+        "per_seed",
+        "paired_axiom_minus_baseline",
+        "integrity"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "53e4c698ee6ea0366417d1d59022e71d0908d0f6727457c0609b5e00a7fbacb6",
+      "reproduced_sha256": "8927c87d3741dd2051d0f4340d8c5939ad7609fc1489812e7aede520e2e932eb",
+      "passed": true
+    },
+    {
+      "name": "retention",
+      "fields": [
+        "config",
+        "aggregate",
+        "states",
+        "episodes"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "b0677f653a66487b90b496d5fa76bbe2eb366d228a007454507ab035802017ec",
+      "reproduced_sha256": "b0677f653a66487b90b496d5fa76bbe2eb366d228a007454507ab035802017ec",
+      "passed": true
+    },
+    {
+      "name": "round2",
+      "fields": [
+        "config",
+        "all_tasks",
+        "failed_prefix",
+        "per_seed_failed_prefix",
+        "paired_recovery_minus_baseline",
+        "prediction_error",
+        "cells",
+        "integrity"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "78962cbaf79199bd25c4b3cd45e01d4b2dbd66d932820b072fe2d47d7aa4a636",
+      "reproduced_sha256": "5b87340897c84975d5f45bc2c0f3d26ea2f34eadb07b1f9c16519fb898bd8ad9",
+      "passed": true
+    },
+    {
+      "name": "interest",
+      "fields": [
+        "config",
+        "metrics",
+        "paired_test_improvement",
+        "selections",
+        "integrity"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "a51c44b11555d5f35c496459893e6ad42614a9bd9988e6b916c53566bd0d023b",
+      "reproduced_sha256": "51de341babf9e53740f5540c81a1886a24641a7fbb276353f337054645ba4524",
+      "passed": true
+    },
+    {
+      "name": "one-demo",
+      "fields": [
+        "before_digest",
+        "after_recording_digest",
+        "learning",
+        "before_choice",
+        "after_choice",
+        "rollback_digest",
+        "skills",
+        "aggregate",
+        "cells",
+        "episodes"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "5a7562b39924cdf937aef559d8f13ec1838574663399cb079b4298c7a2a70921",
+      "reproduced_sha256": "5a7562b39924cdf937aef559d8f13ec1838574663399cb079b4298c7a2a70921",
+      "passed": true
+    },
+    {
+      "name": "round2-demo",
+      "fields": [
+        "initial_choice",
+        "recorded_choice",
+        "trained_choice",
+        "initial_digest",
+        "recorded_digest",
+        "trained_digest",
+        "rollback_digest",
+        "learning"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "286db19050feb9463f806dcfb0d8a0439103c909317b1cdf0fd2db674d6355d8",
+      "reproduced_sha256": "286db19050feb9463f806dcfb0d8a0439103c909317b1cdf0fd2db674d6355d8",
+      "passed": true
+    },
+    {
+      "name": "teacher-transfer",
+      "fields": [
+        "metrics",
+        "cells"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "65dd05351aa3d11407a7bc5433bb3d869f48f268e722126505db3edd352eec0a",
+      "reproduced_sha256": "603a8ae9393f459b85917bd7436de54331f2da331729ff72c9db8658b57deb82",
+      "passed": true
+    },
+    {
+      "name": "teacher-parameters",
+      "fields": [
+        "accepted",
+        "success",
+        "operations",
+        "trace",
+        "before_digest",
+        "recorded_digest",
+        "trained_digest",
+        "learning",
+        "traversal_retained",
+        "exact_rollback",
+        "test_sha256"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "2826fff033c8391e4a3c4ca3f3460091144572169229c09c369e780b94d12aeb",
+      "reproduced_sha256": "d56ce4f03f7a6fd67facb28957bb501fae75076316eaa0436833b55e184adb66",
+      "passed": true
+    },
+    {
+      "name": "teacher-controls",
+      "fields": [
+        "teaching_task_traversal_counterfactual",
+        "prior_selector",
+        "teacher_denied",
+        "no_reply"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "2b0461a8183966f272e8b1fe4c59d46df75517008146bbb15bc612de88b9d676",
+      "reproduced_sha256": "bbc1d750663aacc027050712829369ceb8eb8faddaa2510e506a49bfa89e45fe",
+      "passed": true
+    },
+    {
+      "name": "wrong-teacher",
+      "fields": [
+        "accepted",
+        "success",
+        "operations",
+        "trace",
+        "before_digest",
+        "trained_digest",
+        "learning"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "55b429f1cd3219df5913534213eb038804452fb37af546577f647abcc5b7681a",
+      "reproduced_sha256": "976d3255529f06ea0b552b9cf1f5b42123f8c2aea867766f02f54938d180d4ed",
+      "passed": true
+    },
+    {
+      "name": "cognitive",
+      "fields": [
+        "overall",
+        "cells",
+        "seed_metrics",
+        "primary",
+        "evaluation_weights_unchanged",
+        "test_tasks",
+        "test_executions",
+        "api_calls",
+        "artifacts"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "2ac7ed77152f8bd4266524565002caa870847b7f06a843868e95aa9e10dd4b0b",
+      "reproduced_sha256": "5bcdae9e887211ec4f698d11686df04bb9af576f60edf696c5d3dd13b57f08f8",
+      "passed": true
+    },
+    {
+      "name": "cognitive-training",
+      "fields": [
+        "audits",
+        "checkpoints",
+        "training_data_hashes"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "2814e19d8238877d675e7cdac7521726e9cab43a2ca7f7b2789afa94b5308877",
+      "reproduced_sha256": "267211b4b2b70e8ce5b20da857f6efe9f44ba2443e20124c6f4e4e4b657380a6",
+      "passed": true
+    },
+    {
+      "name": "cognitive-replay",
+      "fields": [
+        "matched_decisions",
+        "environment_feedback",
+        "candidates",
+        "hidden_states",
+        "checkpoint_restoration"
+      ],
+      "missing": [],
+      "differences": [],
+      "reference_sha256": "c8fa7f15d6d5afd1098ab0f8679990793550d64c6adf7c4165cc1931c99a30de",
+      "reproduced_sha256": "c8fa7f15d6d5afd1098ab0f8679990793550d64c6adf7c4165cc1931c99a30de",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "numeric_tolerance": {
+    "relative": 1e-10,
+    "absolute": 1e-10
+  },
+  "exclusions": "Wall time, host platform, timestamps and event/request UUIDs are not performance measurements. Selected result fields are explicit per check; no global filtering."
+}

@@ -1,0 +1,8 @@
+{
+  "source": "synthetic-fault-injection",
+  "received_utc": "2026-10-19T03:46:50.750543+00:00",
+  "request_sha256": "030b0f3795d3959cf063b3f83e7fb83e059520d1848051a4864d10ba7310ae26",
+  "reply_sha256": "f6ca6d3e8d943ae1c668d8cdf30d75b1261c0c972793635beb28e5b732e2e584",
+  "test_sha256": "62d46f11db817d66434b22cd40a06f8b7de03f02a5e3fc1fa02ab16864baa332",
+  "note": "teacher data are untrusted until simulator execution"
+}

@@ -1,0 +1,204 @@
+{
+  "seed": 0,
+  "budget": 4,
+  "allow_ask": true,
+  "request_id": "00285e30f32442f785ed8171c018e7df",
+  "request_sha256": "41afa7b03912cf3cd5c6d09511e856006c9db1309a1e91761a809809bb39d6b4",
+  "selector": {
+    "kind": "recovery-linear-v1",
+    "ridge": 1.0,
+    "weights": [
+      [
+        0.25068561846574994,
+        0.026547382764150695,
+        -0.03231086058263114,
+        -0.034798090439322686,
+        0.286316139936253,
+        -0.1691603955732431,
+        -0.3139863461249631,
+        0.12206782106736168,
+        -0.08730611909530131,
+        0.1643873418551754,
+        0.28431036871945103,
+        -0.24480365042564514,
+        0.1932513475713399,
+        0.026547382764149183,
+        0.34548926889135306,
+        -0.10370736259168822,
+        0.1194794464691485,
+        0.007886041938734337,
+        -0.1580309757541252,
+        0.2974455597553172
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.11303577212838478,
+        0.0024720420500494865,
+        0.0002864447613617808,
+        0.1433888221178412,
+        -0.3119806532396234,
+        -0.37287686933736003,
+        0.2737423774554355,
+        0.4151625766476684,
+        -0.29803706702978505,
+        0.25717760431710607,
+        -0.2434755120365431,
+        -0.06805965693310051,
+        0.08163373085655681,
+        0.0024720420500519455,
+        0.23109542906152736,
+        0.0,
+        0.03324091587889567,
+        0.016620457939447816,
+        -0.024568688000158018,
+        0.036327528097573517
+      ],
+      [
+        0.15381097008186478,
+        0.023565047644653156,
+        0.1546934300889626,
+        0.030241973234855037,
+        -0.05833902382345214,
+        -0.3187065465158576,
+        -0.009546562408603475,
+        0.2409616525650136,
+        -0.09583844335075312,
+        0.08232188357593796,
+        -0.019504044900492578,
+        0.06427485544928876,
+        0.010136937245578797,
+        0.023565047644653746,
+        0.1395361146325759,
+        0.08508912969171353,
+        0.0,
+        0.042544564845856614,
+        -0.03300975859980031,
+        0.22735776409260985
+      ]
+    ],
+    "features": [
+      "bias",
+      "semantic_match",
+      "menus_over_8",
+      "budget_over_10",
+      "search_cost_ratio",
+      "ask_cost_ratio",
+      "search_reliability",
+      "teacher_reliability",
+      "risk",
+      "budget_per_menu",
+      "remaining_fraction",
+      "unopened_fraction",
+      "remaining_per_unopened",
+      "semantic_failed",
+      "opened_fraction",
+      "search_used",
+      "ask_used",
+      "hint_failures",
+      "remaining_after_search",
+      "remaining_after_ask"
+    ]
+  },
+  "opened": [],
+  "trace": [
+    "ask:external-request-reserved"
+  ],
+  "spent": 1,
+  "created_utc": "2026-10-19T03:46:50.653597+00:00",
+  "test_sha256": "62d46f11db817d66434b22cd40a06f8b7de03f02a5e3fc1fa02ab16864baa332",
+  "chooser_log": [
+    {
+      "state": {
+        "base": {
+          "task_id": "8181b9b50122358ff5b16aba",
+          "goal": "audio:reduce-hiss-20780",
+          "menus": [
+            {
+              "id": "root-0",
+              "label": "Sound desk"
+            },
+            {
+              "id": "root-1",
+              "label": "Arrangement"
+            },
+            {
+              "id": "root-2",
+              "label": "Canvas"
+            },
+            {
+              "id": "root-3",
+              "label": "Panel 0"
+            },
+            {
+              "id": "root-4",
+              "label": "Workspace"
+            },
+            {
+              "id": "root-5",
+              "label": "Documents"
+            },
+            {
+              "id": "root-6",
+              "label": "Export"
+            },
+            {
+              "id": "root-7",
+              "label": "Panel 1"
+            }
+          ],
+          "budget": 4,
+          "allow_search": false,
+          "allow_ask": true,
+          "search_cost": 2,
+          "ask_cost": 1,
+          "search_reliability": 0.8,
+          "teacher_reliability": 0.95,
+          "risk": 0.0
+        },
+        "spent": 0,
+        "opened": [],
+        "help_used": [],
+        "semantic_failed": false,
+        "hint_failures": 0,
+        "success": false
+      },
+      "candidates": [
+        {
+          "method": "ask",
+          "score": 0.6294580242898685
+        },
+        {
+          "method": "traverse",
+          "score": 0.49763994484241936
+        }
+      ],
+      "chosen": "ask"
+    }
+  ],
+  "selector_provenance": {
+    "source": "host-supplied coefficients"
+  },
+  "before_digest": "48ecd7fc245a008d9dd42a90a77a79d0d45266fc383bb291db78d2479e071417",
+  "before_checkpoint_sha256": "2065c025abc9fd9d88683f6d7bafddabd4997a2fb368f0435be6b8d237cf267f"
+}

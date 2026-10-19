@@ -1,0 +1,15 @@
+{
+  "tests": {"passed": 32, "failed": 0, "seconds": 7.37, "log": "tests.txt"},
+  "build": {"sdist": "pass", "wheel": "pass"},
+  "installed_wheel_smoke": {
+    "source_directory_excluded": true,
+    "offline_demo": "pass",
+    "checkpoint_restore": "pass",
+    "restored_event_count": 242,
+    "restored_parameter_digest": "76b448771ef592c1992fd06a08d46e3e3b1d973d9706092b60741442d3f4b8bd"
+  },
+  "secret_pattern_scan": "no matches; not a comprehensive privacy guarantee",
+  "independent_review": {"actionable_findings": 4, "resolved": 4, "remaining_reported_blockers": 0},
+  "remote_ci_executed": false,
+  "published_externally": false
+}
